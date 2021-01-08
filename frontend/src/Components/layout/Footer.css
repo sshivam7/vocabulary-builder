@@ -1,0 +1,22 @@
+footer {
+     display: flex;
+     background-color: #161616;
+     height: 5vh;
+     width: 100vw;
+     text-align: center;
+     color: white;
+     font-family: "Roboto", sans-serif;
+     font-size: 1.2em;
+   }
+   
+   footer p {
+     font-size: 1em;
+     margin: auto 25px;
+     margin-right: 0px;
+   }
+
+   footer a {
+        margin: 0px;
+        font-size: 1em;
+        color: var(--blue-accent-color);
+   }

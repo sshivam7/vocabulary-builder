@@ -1,0 +1,20 @@
+.error-list {
+     border: 2px solid var(--red-accent-color);
+     padding: 1vw;
+     margin-bottom: 5vh;
+     width: 45vw;
+}
+
+.error-list ul {
+     color: white;
+     text-align: center;
+     margin: 0px;
+}
+
+.error-list li {
+     text-align: left;
+     font-family: "Roboto";
+     font-size: 1.6em;
+     color: var(--red-accent-color)
+}
+

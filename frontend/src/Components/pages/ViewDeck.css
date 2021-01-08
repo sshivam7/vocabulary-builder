@@ -1,0 +1,54 @@
+.sidebar {
+	all: none;
+}
+
+.sidebar-title {
+	font-family: "staatliches", cursive;
+	font-size: 5em;
+	color: var(--blue-accent-color);
+	margin-bottom: 5vh;
+	letter-spacing: 10px;
+}
+
+.sidebar-btn {
+	padding: 0;
+	border: none;
+	font-size: 2.5em;
+}
+
+.sidebar-btn-container {
+	margin: 0px auto;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.deck-content {
+	margin-left: 0px;
+	padding: 0px 10px;
+}
+
+@media screen and (min-width: 600px) {
+	.sidebar {
+		height: 50%;
+		width: 180px;
+		position: fixed;
+		z-index: 1;
+		top: 50px;
+		left: 50px;
+		overflow-x: hidden;
+		padding-top: 20px;
+		border-right: 2px solid white;
+	}
+
+	.sidebar-btn-container {
+		display: block;
+	}
+
+	.sidebar-btn {
+		margin-left: 0vw;
+	}
+
+	.deck-content {
+		margin-left: 180px;
+	}
+}

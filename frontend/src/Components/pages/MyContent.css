@@ -1,0 +1,11 @@
+h1 span {
+     font-size: 1em;
+     color: var(--green-accent-color);
+}
+
+.sub-heading {
+     font-family: "staatliches", sans-serif;
+     font-size: 3.5em;
+     color: white;
+     margin: 0vw 10vw;
+}

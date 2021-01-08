@@ -1,0 +1,105 @@
+.form-page {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     min-height: 80vh;
+}
+
+.alternate a{
+     text-align: right;
+     font-family: "Roboto", sans-serif;
+     font-size: 1.4em;
+     color: white;
+     display: block;
+}
+
+.alternate a:hover {
+     color: var(--blue-accent-color);
+}
+
+h2 {
+     font-family: "staatliches", sans-serif;
+     font-size: 8em;
+     letter-spacing: 2px;
+     color: var(--green-accent-color);
+     margin: 10px 0px;
+     text-align: center;
+}
+
+form {
+     justify-content: center;
+     text-align: center;
+}
+
+form div {
+     margin: 2vh;
+}
+
+label {
+     text-align: center;
+	display: block;
+	color: white;
+	font-family: "staatliches", cursive;
+	font-size: 2em;
+	letter-spacing: 0.2vh;
+	min-width: 15vw;
+}
+
+input {
+     margin: 0 auto;
+     display: block;
+     border: none;
+     border-bottom: 2px solid var(--blue-accent-color);
+     background-color: rgb(27,27,27);
+     color: white;
+	font-family: sans-serif;
+     font-size: 2em;
+     width: 80vw;
+     height: 40px;
+	padding: 0.5vh;
+}
+
+input:focus, textarea:focus {
+     background-color: rgb(40, 40, 40);
+	border-bottom: 4px solid var(--green-accent-color);
+}
+
+.form-button {
+     display: initial;
+	font-family: "staatliches", cursive;
+	font-size: 2em;
+	color: var(--background-color);
+	background-color: var(--green-accent-color);
+	border: none;
+	border-radius: 5vw;
+	padding: 0.75vh 5vw;
+     margin-right: 1vw;
+     margin-top: 5vh;
+     min-width: initial;
+     width: initial;
+}
+
+input[type=submit] {
+     text-align: center;
+     background-color: var(--blue-accent-color);
+}
+
+.form-button:hover {
+     background-color: white;
+     color: var(--background-color);
+}
+
+@media screen and (min-width: 800px) {
+     input {
+          width: 30vw;
+          margin: 0px;
+     }
+
+     label {
+          text-align: left;
+     }
+}
+
+

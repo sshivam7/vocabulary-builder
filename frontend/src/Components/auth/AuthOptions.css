@@ -1,0 +1,35 @@
+
+button {
+     color: white;
+     background-color: var(--background-color);
+     padding: 0.8vh 2vw;
+     text-align: center;
+     font-family: 'Staatliches', cursive;
+     font-size: 2.5em;
+	text-decoration: none;
+     letter-spacing: 2px;
+     border: none;
+     margin: 3vw 1vw 0vw 0vw;
+     cursor: pointer;
+}
+
+.accent-button {
+     border-color: var(--green-accent-color);
+     background-color: var(--green-accent-color);
+     color: var(--background-color);
+}
+
+button:hover {
+     border-color: white;
+     background-color: var(--background-color);
+     color: var(--green-accent-color);
+}
+
+@media screen and (min-width: 600px) {
+     button {
+          border: 3px solid white;
+          border-radius: 5vw;
+          font-size: 1.6em;
+          margin-top: 2vh;
+     }
+}

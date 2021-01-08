@@ -1,0 +1,38 @@
+.hover-button {
+     border: none;
+     padding: 0;
+}
+
+.button-container {
+     cursor: pointer;
+	border-radius: 5vw;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+     overflow: hidden;
+}
+
+.button-text {
+     font-family: "staatliches", cursive;
+     color: var(--background-color);
+     font-size: 2em;
+	order: -1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	white-space: nowrap; /*Keep text always one line*/
+	overflow: hidden;
+	width: 0;
+	transition: width 1s;
+}
+
+.button-icon {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.button-icon:hover + .button-text {
+	width: 200px;
+}

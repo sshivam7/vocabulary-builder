@@ -1,0 +1,65 @@
+h1 {
+	color: white;
+	font-size: 6em;
+	font-family: "Staatliches", cursive;
+	margin-left: 10vw;
+	margin-top: 5vh;
+	margin-bottom: 2vh;
+}
+
+.main-word {
+	font-family: "Roboto", sans-serif;
+	font-size: 3em;
+	text-align: left;
+	margin-left: 10vw;
+}
+
+.main-definition {
+	color: white;
+	font-family: "Roboto", sans-serif;
+	font-style: italic;
+	font-size: 2em;
+	text-align: left;
+	margin-left: 10vw;
+	margin-right: 10vw;
+}
+
+.main-definition i, .main-definition span {
+	font-size: 1em;
+	color: var(--blue-accent-color)
+}
+
+.hover-button-one, .hover-button-two {
+	text-align: right;
+	position: relative;
+	margin: 2vh;
+}
+
+
+@media screen and (min-width: 500px) {
+	h1 {
+		font-size: 9em;
+		margin-top: 20vh;
+	}
+
+	.main-word {
+		font-size: 4em;
+	}
+
+	.main-definition {
+		margin-right: 35vw;
+		font-size: 2.5em;
+	}
+
+	.hover-button-one {
+		position: fixed;
+		top: 75%;
+		right: 1%;
+	}
+	
+	.hover-button-two {
+		position: fixed;
+		top: 85%;
+		right: 1%;
+	}
+}

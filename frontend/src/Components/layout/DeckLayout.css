@@ -1,0 +1,91 @@
+.deck-list {
+     list-style: none;
+     display: flex;
+     flex-wrap: wrap;
+     padding: 0vw;
+}
+
+a {
+     text-decoration: none;
+     margin: 20px auto;
+}
+
+.display-card:focus, .display-card:hover {
+     border: 2px solid white;
+}
+
+.display-card {
+     color: white;
+     background-color: rgb(27, 27, 27);
+     padding: 10px 20px;
+     width: 300px;
+     min-height: 200px;
+     border-radius: 5px;
+}
+
+.display-card h4 b{
+     font-family: "staatliches", sans-serif;
+     font-size: 3.5em;
+     color: var(--green-accent-color);
+     letter-spacing: 2px;
+}
+
+.display-card p {
+     font-family: "Roboto", sans-serif;
+     font-size: 1.4em;
+}
+
+.display-card div {
+     display: inline-block;
+     text-align: right;
+     font-family: "Roboto", sans-serif;
+     font-size: 1.2em;
+     padding: 4px;
+     width: 70px;
+     text-align: center;
+     color: var(--background-color);
+     border-radius: 20px;
+}
+
+.faded {
+     background-color: grey;
+}
+
+.solid {
+     background-color: var(--blue-accent-color);
+}
+
+.add-card img {
+     margin-left: 78px;
+     margin-top: 38px;
+}
+
+.actions {
+     display: flex;
+     flex-direction: row;
+     margin: auto 0;
+     margin-left: 70vw;
+}
+
+.action-button {
+     border:none;
+     padding: 0px;
+     margin: 0px;
+     padding-right: 5px;
+}
+
+@media screen and (min-width: 400px) {
+     .deck-list {
+          margin: 3vw;
+          padding-left: 5vw;
+     }
+
+     .actions {
+          flex-direction: column;
+          margin-left: 0vw;
+     }
+
+     a {
+          margin: 20px;
+     }
+}

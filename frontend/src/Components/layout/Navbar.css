@@ -1,0 +1,17 @@
+/* || Navigation styles */
+
+
+nav {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+	nav {
+		justify-content: flex-end;
+		text-align: end;
+	}
+}
+
+

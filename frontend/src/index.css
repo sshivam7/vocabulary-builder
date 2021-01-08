@@ -1,0 +1,22 @@
+* {
+	box-sizing: border-box;
+	font-size: 10px;
+}
+
+body {
+	/* Color variables to be used throughout the application*/
+  --red-accent-color: #ff4655;
+  --blue-accent-color: #1CDAFF;
+	--background-color: #111111;
+	--green-accent-color: #B5FF46;
+	overflow-x: hidden;
+	margin: 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: var(--background-color);
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
