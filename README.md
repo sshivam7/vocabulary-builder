@@ -5,7 +5,7 @@ decks. Adding new decks and cards is easy, and users may also perform any of the
 create a responsive and user-friendly webpage using pure CSS.
 
 ### Live Demo 
-This project is currently a work in progress; however, a live [demo](https://vocabbuilder.herokuapp.com/) has been made available using [Heroku](https://www.heroku.com/). 
+A live [demo](https://vocabbuilder.herokuapp.com/) has been made available using [Heroku](https://www.heroku.com/). 
 **Please note** that the OwlBot autofill feature has been **disabled** for this demo. 
 
 ### Features 
